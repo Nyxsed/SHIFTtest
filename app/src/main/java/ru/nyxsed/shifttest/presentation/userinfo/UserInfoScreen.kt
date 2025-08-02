@@ -32,8 +32,8 @@ import org.koin.androidx.compose.koinViewModel
 import org.koin.core.parameter.parametersOf
 import ru.nyxsed.shifttest.R
 import ru.nyxsed.shifttest.domain.models.User
-import ru.nyxsed.shifttest.event.CollectUiEvent
-import ru.nyxsed.shifttest.event.IntentAppType
+import ru.nyxsed.shifttest.presentation.event.CollectUiEvent
+import ru.nyxsed.shifttest.presentation.event.IntentAppType
 
 /**
  * Экран информации о пользователе

@@ -1,6 +1,5 @@
 package ru.nyxsed.shifttest.presentation.userslist
 
-import android.util.Log
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
@@ -31,7 +30,7 @@ import com.composegears.tiamat.navDestination
 import org.koin.androidx.compose.koinViewModel
 import ru.nyxsed.shifttest.R
 import ru.nyxsed.shifttest.domain.models.User
-import ru.nyxsed.shifttest.event.CollectUiEvent
+import ru.nyxsed.shifttest.presentation.event.CollectUiEvent
 
 /**
  * Экран пользователей, входная точка приложения

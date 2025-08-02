@@ -14,7 +14,7 @@ import ru.nyxsed.shifttest.domain.models.User
 import ru.nyxsed.shifttest.domain.usecase.GetDbUsersUseCase
 import ru.nyxsed.shifttest.domain.usecase.GetRandomUsersUseCase
 import ru.nyxsed.shifttest.domain.usecase.InsertUsersUseCase
-import ru.nyxsed.shifttest.event.UiEvent
+import ru.nyxsed.shifttest.presentation.event.UiEvent
 import ru.nyxsed.shifttest.presentation.userinfo.UserInfoScreen
 
 class UserListViewModel(

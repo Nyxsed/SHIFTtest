@@ -1,4 +1,4 @@
-package ru.nyxsed.shifttest.event
+package ru.nyxsed.shifttest.presentation.event
 
 sealed class IntentAppType {
     object Email : IntentAppType()

@@ -10,8 +10,8 @@ import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import ru.nyxsed.shifttest.domain.models.User
-import ru.nyxsed.shifttest.event.IntentAppType
-import ru.nyxsed.shifttest.event.UiEvent
+import ru.nyxsed.shifttest.presentation.event.IntentAppType
+import ru.nyxsed.shifttest.presentation.event.UiEvent
 
 class UserInfoViewModel(
     private val user: User,
