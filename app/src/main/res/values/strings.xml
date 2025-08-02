@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SHIFTtest</string>
+    <string name="user_list">Users List</string>
+    <string name="user_info">User Info</string>
+    <string name="refresh_users">Refresh users</string>
+    <string name="user_avatar">User avatar</string>
+    <string name="no_data_found">No users loaded</string>
+    <string name="phone">Phone: %1$s</string>
+    <string name="email" translatable="false">Email: %1$s</string>
+    <string name="address">Address: %1$s</string>
+</resources>

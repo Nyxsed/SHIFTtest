@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SHIFTtest</string>
+    <string name="user_info">Информация о пользователе</string>
+    <string name="refresh_users">Обновить пользователей</string>
+    <string name="user_avatar">Аватар</string>
+    <string name="no_data_found">Нет загруженых пользователей</string>
+    <string name="phone">Номер телефона: %1$s</string>
+    <string name="address">Адрес: %1$s</string>
+    <string name="user_list">Список пользователей</string>
+</resources>
