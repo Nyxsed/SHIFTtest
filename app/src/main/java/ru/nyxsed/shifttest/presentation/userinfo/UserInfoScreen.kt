@@ -133,9 +133,9 @@ fun UserInfoContent(
                         .fillMaxWidth()
                         .padding(top = 20.dp)
                         .clickable {
-                            onFieldClicked(IntentAppType.Map, "${state.latitude},${state.longitude}")
+                            onFieldClicked(IntentAppType.Map, "${state.longitude},${state.latitude}")
                         },
-                    text = stringResource(R.string.address, "${state.country},${state.state},${state.city},${state.street},${state.house}"),
+                    text = stringResource(R.string.address, "${state.country}, ${state.state}, ${state.city}, ${state.street}, ${state.house}"),
                     style = MaterialTheme.typography.bodyLarge,
                     textAlign = TextAlign.Left,
                 )

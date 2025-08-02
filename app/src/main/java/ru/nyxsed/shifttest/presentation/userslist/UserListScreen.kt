@@ -23,6 +23,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.composegears.tiamat.navController
@@ -98,7 +99,8 @@ fun UserListContent(
                     Text(
                         text = stringResource(R.string.no_data_found),
                         fontSize = 24.sp,
-                        color = MaterialTheme.colorScheme.onSecondary
+                        color = MaterialTheme.colorScheme.onSecondary,
+                        textAlign = TextAlign.Center
                     )
                 }
             } else {
